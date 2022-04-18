@@ -10,6 +10,9 @@ Date: 3/28/22	Done:
 
 Date: 4/18/22	Done:
 				Pushed to GitHub
+				Added code from the tutorial pdf
+				Got help from Mr. Miyoshi
+				Pushed to GitHub
 */
 
 const int WINDOW_WIDTH = 800;
