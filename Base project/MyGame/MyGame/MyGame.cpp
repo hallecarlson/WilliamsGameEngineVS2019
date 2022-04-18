@@ -7,6 +7,9 @@ Maintenance Log
 Date: 3/28/22	Done: 
 				Created project
 				Pushed to GitHub
+
+Date: 4/18/22	Done:
+				Pushed to GitHub
 */
 
 const int WINDOW_WIDTH = 800;
