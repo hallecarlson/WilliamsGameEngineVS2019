@@ -13,6 +13,11 @@ Date: 4/18/22	Done:
 				Added code from the tutorial pdf
 				Got help from Mr. Miyoshi
 				Pushed to GitHub
+
+Date: 4/19/22	Done:
+				Added a ton of code for objects
+				Tested game
+				Pushed to GitHub
 */
 
 const int WINDOW_WIDTH = 800;

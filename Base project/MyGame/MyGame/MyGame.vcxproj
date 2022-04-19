@@ -87,6 +87,8 @@
     <ClCompile Include="Engine\GameObject.cpp" />
     <ClCompile Include="Engine\Scene.cpp" />
     <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="laser.cpp" />
+    <ClCompile Include="meteor.cpp" />
     <ClCompile Include="MyGame.cpp" />
     <ClCompile Include="ship.cpp" />
   </ItemGroup>
@@ -97,12 +99,16 @@
     <ClInclude Include="Engine\GameObject.h" />
     <ClInclude Include="Engine\Scene.h" />
     <ClInclude Include="GameScene.h" />
+    <ClInclude Include="laser.h" />
+    <ClInclude Include="meteor.h" />
     <ClInclude Include="ship.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\..\..\..\Downloads\laser.png" />
+    <Image Include="..\..\..\..\..\..\Downloads\meteor.png" />
     <Image Include="..\..\..\..\..\..\Downloads\ship.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
