@@ -15,11 +15,25 @@
     </ClCompile>
     <ClCompile Include="MyGame.cpp" />
     <ClCompile Include="GameScene.cpp" />
-    <ClCompile Include="ship.cpp" />
     <ClCompile Include="laser.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
     <ClCompile Include="meteor.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ship.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MeteorSpawner.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="explosion.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="gameovermessage.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
   </ItemGroup>
@@ -49,6 +63,18 @@
     <ClInclude Include="meteor.h">
       <Filter>Engine</Filter>
     </ClInclude>
+    <ClInclude Include="MeteorSpawner.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="explosion.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="gameovermessage.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Engine">
@@ -71,7 +97,15 @@
       <Filter>Engine</Filter>
     </Image>
     <Image Include="..\..\..\..\..\..\Downloads\meteor.png">
-      <Filter>Engine</Filter>
+      <Filter>Resources</Filter>
     </Image>
+    <Image Include="..\..\..\..\..\..\Downloads\explosion-spritesheet.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\..\..\Downloads\boom.wav">
+      <Filter>Resources</Filter>
+    </Media>
   </ItemGroup>
 </Project>

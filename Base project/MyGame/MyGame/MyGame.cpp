@@ -18,6 +18,19 @@ Date: 4/19/22	Done:
 				Added a ton of code for objects
 				Tested game
 				Pushed to GitHub
+
+Date: 4/20/22	Done:
+				Added a ton of code for project
+					explosion
+					game over message
+					game scene
+					laser
+					meteor
+					meteor spawner
+					my game
+					score
+				Encountered strange errors and decided to fix them later
+				Pushed to GitHub
 */
 
 const int WINDOW_WIDTH = 800;

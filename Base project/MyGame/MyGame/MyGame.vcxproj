@@ -86,10 +86,14 @@
     <ClCompile Include="Engine\Game.cpp" />
     <ClCompile Include="Engine\GameObject.cpp" />
     <ClCompile Include="Engine\Scene.cpp" />
+    <ClCompile Include="explosion.cpp" />
+    <ClCompile Include="gameovermessage.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="laser.cpp" />
     <ClCompile Include="meteor.cpp" />
+    <ClCompile Include="MeteorSpawner.cpp" />
     <ClCompile Include="MyGame.cpp" />
+    <ClCompile Include="score.cpp" />
     <ClCompile Include="ship.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -98,18 +102,26 @@
     <ClInclude Include="Engine\GameEngine.h" />
     <ClInclude Include="Engine\GameObject.h" />
     <ClInclude Include="Engine\Scene.h" />
+    <ClInclude Include="explosion.h" />
+    <ClInclude Include="gameovermessage.h" />
     <ClInclude Include="GameScene.h" />
     <ClInclude Include="laser.h" />
     <ClInclude Include="meteor.h" />
+    <ClInclude Include="MeteorSpawner.h" />
+    <ClInclude Include="score.h" />
     <ClInclude Include="ship.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\..\..\..\Downloads\explosion-spritesheet.png" />
     <Image Include="..\..\..\..\..\..\Downloads\laser.png" />
     <Image Include="..\..\..\..\..\..\Downloads\meteor.png" />
     <Image Include="..\..\..\..\..\..\Downloads\ship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\..\..\Downloads\boom.wav" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
