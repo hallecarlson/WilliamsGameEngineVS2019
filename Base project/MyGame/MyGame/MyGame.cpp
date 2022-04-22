@@ -31,6 +31,13 @@ Date: 4/20/22	Done:
 					score
 				Encountered strange errors and decided to fix them later
 				Pushed to GitHub
+
+Date: 4/22/22	Done:	
+				Got help from Mr. Miyoshi
+				fixed errors and tested code
+				Added collision and meteor disappearing
+				Currently working on explosions
+				Pushed to GitHub
 */
 
 const int WINDOW_WIDTH = 800;

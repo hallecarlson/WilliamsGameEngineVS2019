@@ -33,6 +33,8 @@ void Explosion::update(sf::Time& elapsed)
 
 	if (!isPlaying())
 	{
+		sprite_.setPosition(sf::Vector2f(pos.x + SPEED * msElapsed, pos.y));
 		makeDead();
+		//sprite_.setPosition(sf::Vector2f(pos.x + SPEED * msElapsed, pos.y));
 	}
 }

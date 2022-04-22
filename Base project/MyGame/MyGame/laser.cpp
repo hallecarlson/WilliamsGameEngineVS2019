@@ -28,8 +28,9 @@ void Laser::update(sf::Time& elapsed)
 		sprite_.setPosition(sf::Vector2f(pos.x + SPEED * msElapsed, pos.y));
 	}
 
-	sf::FloatRect Laser::getCollisionRect()
-	{
-		return sprite_.getGlobalBounds();
-	}
+}
+
+sf::FloatRect Laser::getCollisionRect()
+{
+	return sprite_.getGlobalBounds();
 }

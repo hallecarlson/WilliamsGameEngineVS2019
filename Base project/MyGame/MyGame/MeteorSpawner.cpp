@@ -14,7 +14,7 @@ void MeteorSpawner::update(sf::Time& elapsed)
 	{
 		timer_ = SPAWN_DELAY;
 
-		sf::Vector2f size = GAME.getRenderWindow().getSize();
+		sf::Vector2u size = GAME.getRenderWindow().getSize();
 
 		//spawn the meteor off the right side of the screen
 		//we're assuming the meteor isn't more than 100 pixels wide
