@@ -5,7 +5,7 @@
 class Meteor : public GameObject
 {
 public:
-	//creates out meteor
+	//creates our meteor
 	Meteor(sf::Vector2f pos);
 
 	//functions overriden from GameObject

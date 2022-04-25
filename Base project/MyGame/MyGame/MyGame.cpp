@@ -38,6 +38,12 @@ Date: 4/22/22	Done:
 				Added collision and meteor disappearing
 				Currently working on explosions
 				Pushed to GitHub
+
+Date: 4/25/22	Done:	
+				Got help from Mr. Miyoshi
+				Tried to add explosion
+				Didn't figure it out
+				Pushed to GitHub
 */
 
 const int WINDOW_WIDTH = 800;
