@@ -36,6 +36,9 @@
     <ClCompile Include="gameovermessage.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
+    <ClCompile Include="gameoverscene.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\AnimatedSprite.h">
@@ -73,6 +76,9 @@
       <Filter>Engine</Filter>
     </ClInclude>
     <ClInclude Include="gameovermessage.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="gameoverscene.h">
       <Filter>Engine</Filter>
     </ClInclude>
   </ItemGroup>

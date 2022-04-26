@@ -44,6 +44,12 @@ Date: 4/25/22	Done:
 				Tried to add explosion
 				Didn't figure it out
 				Pushed to GitHub
+
+Date: 4/26/22	Done:
+				Got help from Mr. Miyoshi
+				Added code
+				Fixed errors Tested game
+				Pushed to GitHub
 */
 
 const int WINDOW_WIDTH = 800;
