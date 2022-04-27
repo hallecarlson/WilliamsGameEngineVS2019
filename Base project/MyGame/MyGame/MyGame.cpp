@@ -50,6 +50,13 @@ Date: 4/26/22	Done:
 				Added code
 				Fixed errors Tested game
 				Pushed to GitHub
+
+Date: 4/27/22	Done:
+				Tried to fix score so it would add points
+				Got help from Mr. Miyoshi
+				Fixed the score
+				Demoed the project
+				Pushed to GitHub
 */
 
 const int WINDOW_WIDTH = 800;
